@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <link rel="stylesheet" href="data.css">
+  
+
+</head>
+<body>
+  
+   <table align="center" border="4">
+		<tr>
+			<th colspan="8">
+				<h2>Donation Record</h2>
+			</th>
+		</tr>
+
+		<th> Name </th>
+		<th> Email </th>
+		<th> Type of Food </th>
+		<th>Date of cooking</th>
+		<th>Time of cooking</th>
+		<th>Quantity</th>
+		<th>Location</th>
+		<th>confirmation</th>
+		</tr>
+       
+            {{#each data}}
+                <tr>
+                    <td>{{this.name1}}</td> 
+                    <td>{{this.email1}}</td>
+                    <td>{{this.type1}}</td>
+                    <td>{{this.date1}}</td>
+                    <td>{{this.time1}}</td>
+                    <td>{{this.quantity1}}</td>
+                    <td>{{this.location1}}</td>
+                    <td><button class="confirm-button">Confirm</button></td>
+                </tr>
+            {{/each}}
+       
+    </table>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const buttons = document.querySelectorAll('.confirm-button');
+
+    buttons.forEach(function (button) {
+        button.addEventListener('click', function () {
+            button.textContent = 'Confirmed!';
+            button.style.backgroundColor = '#00cc00';
+        });
+    });
+});
+    </script>
+</body>
+</html>

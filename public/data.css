@@ -1,0 +1,24 @@
+body {
+    background: rgb(238,134,49);
+background: radial-gradient(circle, rgba(238,134,49,1) 0%, rgba(221,94,43,1) 100%);
+    color: rgb(16, 1, 1);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+table {
+    width: 80%;
+    border: black solid 4px;
+}
+
+td {
+    padding: 5px;
+    align-content: center;
+    margin: auto;
+
+}
+
+.confirm-button {
+    background-color: yellow;
+}

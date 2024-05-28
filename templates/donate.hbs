@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="donation_form.css">
+</head>
+<body>
+    
+    <form action="/donate" method="post">
+    
+    <h1><center>Donate now</center></h1>
+    <div class="form1">
+         <form action="/donate" method="post">
+            <label for="name1">Name</label><br>
+            <input type="text" id="name" name="name1">
+            <br><br>
+            <label for="email1">Email</label><br>
+            <input type="email" id="email" name="email1">
+            <br><br>
+            <label for="type1">Type of food</label><br>
+            <input type="text" id="type1" name="type1">
+            <br><br>
+            <label for="date1">Date of Cooking</label><br>
+            <input type="date" id="date1" name="date1">
+            <br><br>
+            <label for="time1">Time of Cooking</label><br>
+            <input type="time" id="time1" name="time1">
+            <br><br>
+            <label for="quantity1">Quantity</label><br>
+            <select  id="quantity" name="quantity1">
+                <option value="less than 1Kg">less than 1Kg</option>
+                <option value="approx 1Kg">approx 1Kg</option>
+                <option value="approx 2Kg">approx 2Kg</option>
+                <option value="more than 2 KG">more than 2 KG</option>  
+            </select>
+            <br><br>
+            <label for="location1">Location</label><br>
+            <select  id="location" name="location1">
+                <option value="Motera">Motera</option>
+                <option value="Nikol">Nikol</option>
+                <option value="Sola">Sola</option>
+                <option value="Naroda">Naroda</option>  
+            </select>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

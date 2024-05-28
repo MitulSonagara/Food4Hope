@@ -1,0 +1,53 @@
+body {
+    background: url('https://us.123rf.com/450wm/olzzon79/olzzon792303/olzzon79230300326/201276398-fresh-vegetables-and-fruits-in-reusable-shopping-bags-on-rustic-wooden-background.jpg?ver=6') fixed;
+   background-size: cover;
+   height: 400px;
+}
+
+*[role="form"] {
+   max-width: 530px;
+   padding: 15px;
+   margin: 0 auto;
+   border-radius: 0.3em;
+   background-color: #f2f2f2;
+}
+
+*[role="form"] h2 { 
+   font-family: 'Open Sans' , sans-serif;
+   font-size: 40px;
+   font-weight: 600;
+   color: #000000;
+   margin-top: 5%;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+}
+.container{
+    margin-top: 25px;
+    padding: 5px;
+}
+.form-horizontal{
+   background-color: #eed2ac;
+}
+div{
+   padding: 3px;
+ 
+  
+}
+
+input{
+   width: 500px;
+   height: 20px;
+}
+.btn{
+   background: #f69610;
+   border: #633504;
+   width:530px;
+   height: 40px;
+ }
+ .btn:hover {
+   background: #f6ad48;
+   border: #563509;
+ }
+
+ 
